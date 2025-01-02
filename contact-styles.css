@@ -1,0 +1,142 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%vh;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+
+  body ::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .contact-background-3d {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://img.freepik.com/premium-photo/field-winter-wheat-crops-leaves-germinating-background-image-website-background-images-desktop-w_1047054-13501.jpg?w=1380') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8);
+    animation: zoom 15s infinite alternate ease-in-out;
+    transition: transform 0.05s ease-out;
+    z-index: -1;
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+  .Navbar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);;
+    color: white;
+  }
+  
+  .Navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .Navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 50px;
+    padding-bottom: 1px;
+  }
+  
+  .Navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Navbar .half-colored {
+    color: #08bd35;
+  }
+
+  .mentor{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .team-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex: 1;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .contact-container {
+    text-align: center;
+    background: bisque;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #c76868;
+  }
+
+  .buttons-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .contact-button {
+    background-color: #5569a4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button svg {
+    fill: white;
+  }
+  
+  .contact-button:hover {
+    background-color: #66a2cd;
+  }
+  
+  .contact-button:active {
+    background-color: #6eaada;
+  }
+
+  .team-title{
+    color: #41c11d;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .name{
+    color: black;
+    font-size: x-large;
+  }

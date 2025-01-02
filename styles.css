@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+
+  body ::-webkit-scrollbar{
+    display: none;
+  }
+
+  .background-3d {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://images.pexels.com/photos/7032/landscape-field-sonja-langford-sonja.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.8);
+    animation: zoom 15s infinite alternate ease-in-out;
+    transition: transform 0.05s ease-out;
+    z-index: -1;
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+  .heading .half-colored {
+    color: #08bd35;
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .result {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .card {
+    backdrop-filter: blur(10px);
+  }
+
+  .form-container {
+    margin-top: 2rem;
+  }
+
+  .Navbar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);;
+    color: white;
+  }
+  
+  .Navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .Navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0rem;
+    padding-bottom: 1px;
+  }
+  
+  .Navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Navbar .half-colored {
+    color: #08bd35;
+  }
+  
