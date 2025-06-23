@@ -5,7 +5,7 @@ AgriSmart is an intelligent crop recommendation system designed to assist farmer
 
 ---
 
-## 🚀 Features
+## Features
 
 - Predicts the best crop to grow based on:
   - Soil nutrients: Nitrogen (N), Phosphorus (P), Potassium (K)
@@ -20,7 +20,7 @@ AgriSmart is an intelligent crop recommendation system designed to assist farmer
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 AgriSmart/
@@ -35,31 +35,30 @@ AgriSmart/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Follow these steps to set up the project locally:
 
-1️⃣ Clone the repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/AgriSmart.git
 cd AgriSmart
 ```
 
-2️⃣ Create a virtual environment (recommended):
+2. Create a virtual environment (recommended):
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3️⃣ Install required dependencies:
+3. Install required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-
-4️⃣ Run the application:
+4.️ Run the application:
 
 ```bash
 python app/main.py
@@ -67,7 +66,7 @@ python app/main.py
 
 ---
 
-## 🧠 Model Details
+## Model Details
 
 - The system is built using supervised machine learning algorithms (e.g., Random Forest, Decision Tree, or SVM).
 - Trained on agricultural datasets containing soil and environmental parameters with corresponding suitable crops.
@@ -75,7 +74,7 @@ python app/main.py
 
 ---
 
-## 📝 Usage
+## Usage
 
 Once the app is running:
 
@@ -84,28 +83,13 @@ Once the app is running:
 
 ---
 
-## 📈 Future Enhancements
-
-- Integration with live weather APIs
-- Mobile app support
-- Geo-location based crop suggestions
-- Multi-language support for farmers in different regions
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open issues or submit pull requests.
-
----
-
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - Inspired by Indian agricultural datasets and local farming practices.
 - Uses open-source libraries including Scikit-learn, Pandas, NumPy, and Flask/FastAPI.
