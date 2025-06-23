@@ -42,15 +42,15 @@ Follow these steps to set up the project locally:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/AgriSmart.git
+git clone https://github.com/rishikam23/AgriSmart-Crop-Recommendation-System/tree/main
 cd AgriSmart
 ```
 
-2. Create a virtual environment (recommended):
+2. Create a virtual environment **(recommended)**:
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv\Scripts\activate
 ```
 
 3. Install required dependencies:
